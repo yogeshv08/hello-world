@@ -1,37 +1,82 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user1 Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Begüm Bakan</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="preload" href="./images/bg.jpg" as="image" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+        <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          VANTA.BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundAlpha: 0.0,
+            color2: 0xff00f0,
+            wingSpan: 40.00,
+            separation: 100.00,
+            alignment: 77.00,
+            cohesion: 20.00,
+            quantity: 3
+          })
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+          setTimeout(() => {
+            const main = document.querySelector('main')
+            main.style.opacity = 1
+            main.style.filter = 'blur(0px)'
+          }, 1000)
+        })
+        </script>
+    </head>
+    <body>
+        <div id="vanta"></div>
+        <main>
+        <header>
+            <img src="./images/begum.jpeg">
+            <h1>Begüm Bakan</h1>
+        </header>
+        <ul>
+            <li>
+               <a href="https://github.com/begumbakan"> 
+                  <img src="./images/github.svg" alt="GitHub" width="20" />
+                   GitHub
+                </a>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/begumbakan_">
+                   <img src="./images/instagram.svg" alt="Instagram" width="20" />
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/begumbakann">
+                    <img src="./images/twitter.svg" alt="Twitter" width="20" />
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://vsco.co/begumbkn/gallery">
+                    <img src="./images/vsco.png" alt="VSCO" width="20" />
+                    VSCO
+                </a>
+            </li>
+            <li>
+               <a href="https://steamcommunity.com/profiles/76561198087722729/">
+                   <img src="./images/steam.png" alt="Steam" width="20" />
+                    Steam
+               </a> 
+            </li>
+        </ul>
+        </main>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+    </body>
+</html>
