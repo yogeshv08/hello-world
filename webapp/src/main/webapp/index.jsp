@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Begüm Bakan</title>
+        <title>yogeswar</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="./index.css" />
         <link rel="preload" href="./images/bg.jpg" as="image" />
