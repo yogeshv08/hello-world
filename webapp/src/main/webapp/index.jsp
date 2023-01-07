@@ -25,7 +25,7 @@
             </a>
         </li>
         <li>
-            <a href="mailto:mydogfromhell666@gmail.com">
+            <a href="mailto:mydogfromhell66@gmail.com">
                 <img src="./img/gmail.svg" alt="Gmail" width="20">
                 Gmail
             </a>
